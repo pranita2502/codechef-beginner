@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HS08TEST",
+            "request": "launch",
+            "mainClass": "HS08TEST"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - START01",
             "request": "launch",
             "mainClass": "START01"

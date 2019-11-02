@@ -18,6 +18,7 @@ class FLOW006 {
             }
             System.out.println(add);
         }
+        sc.close();
     }
 
 }
