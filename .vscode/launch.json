@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FCTRL2",
+            "request": "launch",
+            "mainClass": "FCTRL2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FLOW001",
             "request": "launch",
             "mainClass": "FLOW001"
