@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FSQRT",
+            "request": "launch",
+            "mainClass": "FSQRT"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FLOW007",
             "request": "launch",
             "mainClass": "FLOW007"
