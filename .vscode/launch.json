@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FLOW017",
+            "request": "launch",
+            "mainClass": "FLOW017"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MUFFINS3",
             "request": "launch",
             "mainClass": "MUFFINS3"
