@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MUFFINS3",
+            "request": "launch",
+            "mainClass": "MUFFINS3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FSQRT",
             "request": "launch",
             "mainClass": "FSQRT"
