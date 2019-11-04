@@ -6,6 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FLOW007",
+            "request": "launch",
+            "mainClass": "FLOW007"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TLG",
+            "request": "launch",
+            "mainClass": "TLG"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LUCKFOUR",
             "request": "launch",
             "mainClass": "LUCKFOUR"
