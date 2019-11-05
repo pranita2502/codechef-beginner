@@ -18,5 +18,6 @@ public class FLOW013 {
             else
                 System.out.println("NO");
         }
+        sc.close();
     }
 }
