@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CIELRCPT",
+            "request": "launch",
+            "mainClass": "CIELRCPT"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FLOW005",
             "request": "launch",
             "mainClass": "FLOW005"

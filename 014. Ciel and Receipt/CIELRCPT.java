@@ -1,13 +1,28 @@
-import java.lang.*;
+import java.util.Scanner;
 
 /* CIELRCPT
 */
 public class CIELRCPT {
-
-    static boolean isPowerOfTwo(int n) {
-        if (n == 0)
-            return false;
-
-        return (int) (Math.ceil((Math.log(n) / Math.log(2)))) == (int) (Math.floor(((Math.log(n) / Math.log(2)))));
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int t=sc.nextInt();
+        int arr[]={2048,1024,512,256,128,64,32,16,8,4,2,1};
+        for(int j=0;j<t;j++)
+        {
+            int count=0;
+            int p=sc.nextInt();
+            for(int i=0;i<arr.length;)
+            {
+                if(p<arr[i])
+                i++;
+                else if(p>=arr[i])
+                {
+                    p=p-arr[i];
+                    count++;
+                }
+            }
+            System.out.println(count);
+        }
+        sc.close();
     }
 }
