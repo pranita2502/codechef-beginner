@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FLOW018",
+            "request": "launch",
+            "mainClass": "FLOW018"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - REMISS",
             "request": "launch",
             "mainClass": "REMISS"
